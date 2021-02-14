@@ -3,7 +3,7 @@ object formRandomNumberGenerator: TformRandomNumberGenerator
   Top = 0
   Caption = 'Random number generator'
   ClientHeight = 332
-  ClientWidth = 357
+  ClientWidth = 351
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,11 +14,12 @@ object formRandomNumberGenerator: TformRandomNumberGenerator
   PixelsPerInch = 96
   TextHeight = 13
   object lblRandomNumberList: TLabel
-    Left = 96
+    Left = 120
     Top = 8
-    Width = 153
+    Width = 99
     Height = 13
     Alignment = taCenter
+    AutoSize = False
     Caption = 'Random numbers list'
     Layout = tlCenter
   end
